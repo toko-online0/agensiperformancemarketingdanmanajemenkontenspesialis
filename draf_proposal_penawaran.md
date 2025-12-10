@@ -1,140 +1,84 @@
-**Agensi "Performance Marketing" & Manajemen Konten Spesialis (Niche Agency).**
+Ini adalah dua alat bantu krusial untuk segera memulai langkah Anda membangun **Shafaqo** (atau nama agensi yang Anda pilih) di Padangsidimpuan atau target pasar lainnya.
 
-Berbeda dengan agensi umum (Palugada), agensi ini fokus pada satu *niche* industri (misalnya: F&B, Klinik Kesehatan/Kecantikan, atau Fashion Muslim) dengan fokus pada hasil nyata (leads/penjualan), bukan sekadar *likes*.
-
-Berikut adalah bedah lengkap model bisnisnya:
+Berikut adalah **Draf Proposal Penawaran** yang bisa langsung Anda kirim via WhatsApp/Email, dan **Simulasi Keuangan Sederhana** untuk pegangan Anda.
 
 ---
 
-### 1. Lokasi & Posisi
-* **Rekomendasi:** **Remote First (WFH)** atau **Hybrid**.
-* **Posisi Fisik:** Tidak memerlukan ruko di jalan besar. Cukup ruang kerja di rumah atau *Co-working space* murah jika perlu *meeting*.
-* **Alasan Strategis:**
-    * **Efisiensi Modal:** Di bisnis digital, sewa tempat adalah "pemborosan" di tahap awal. Klien tidak peduli kantor anda di mana, mereka peduli hasil kerja anda.
-    * **Talent Pool:** Anda bisa merekrut talenta terbaik dari seluruh Indonesia (misal: desainer dari Jogja, copywriter dari Bandung) dengan gaji yang kompetitif tanpa terbatas geografi.
+### 1. Draf Pesan Penawaran (Cold Message)
+Gunakan *script* ini untuk menghubungi calon klien (pemilik klinik, kafe, atau toko lokal) melalui WhatsApp atau DM Instagram. Kuncinya adalah **personal** dan **tidak terlihat seperti robot**.
 
-### 2. Rekomendasi Offer (Penawaran)
-Jangan menjual "Jasa Sosmed". Itu komoditas murah. Juallah **solusi**.
+**Subjek/Awal Chat:** *Izin tanya untuk [Nama Bisnis Klien]*
 
-* **Paket Utama:** "Sistem Datang Pelanggan 30 Hari".
-* **Isi Offer:**
-    * 12 Konten Reels/Tiktok High Quality (Video Short form adalah raja saat ini).
-    * Manajemen Iklan (Meta Ads/TikTok Ads) fokus ke WhatsApp Leads.
-    * Setup Google Business Profile (SEO Lokal).
-    * Laporan bulanan berbasis data (bukan vanity metrics).
-* **Harga:** Rp 4.000.000 - Rp 7.000.000 per bulan per klien (Retainer/Berlangganan).
+**Isi Pesan:**
 
----
+> "Halo, selamat pagi/siang Kak/Pak/Bu [Nama Pemilik atau Admin].
+>
+> Salam kenal, saya Ahmad dari **[Nama Agensi/Shafaqo]**.
+>
+> Saya warga lokal Padangsidimpuan juga. Saya perhatikan [Nama Bisnis Klien] punya potensi besar, tapi sayang sekali akun sosmed-nya belum maksimal menjangkau warga sini. Padahal produk/jasanya bagus banget.
+>
+> Kebetulan, kami spesialis membantu bisnis lokal mendatangkan pelanggan baru lewat konten digital yang rapi dan tertarget.
+>
+> Boleh saya minta waktu 5-10 menit untuk ngobrol santai (atau zoom) minggu ini? Saya ingin kasih masukan/audit gratis soal strategi digital yang cocok untuk [Nama Bisnis Klien], tanpa kewajiban apa-apa.
+>
+> Terima kasih sebelumnya, sukses terus untuk usahanya!"
 
-### 3. Unit Economics (Hitungan Ekonomi Per Unit)
-Anggap kita menjual paket seharga **Rp 5.000.000/bulan**.
-
-* **Harga Jual (Revenue):** Rp 5.000.000
-* **COGS (Cost of Goods Sold/Biaya Langsung):**
-    * Fee Freelance Content Creator/Editor: Rp 1.500.000 (per klien)
-    * Fee Ad Advertiser (atau dikerjakan sendiri di awal): Rp 0 - Rp 1.000.000
-    * Software (Canva/CapCut/Tools): Rp 200.000 (proporsional)
-* **Gross Profit (Laba Kotor):** Rp 5.000.000 - Rp 1.700.000 = **Rp 3.300.000 per klien.**
-* **Margin:** ~66% (Sangat sehat).
+**Tips:** Jika mereka membalas "Boleh", barulah Anda kirimkan proposal harga atau ajak ketemuan. Jangan kirim harga di chat pertama.
 
 ---
 
-### 4. Mencari Pelanggan (Marketing & Sales)
-Di tahap awal, jangan beriklan (bakar uang). Gunakan metode **Organic Hunter**:
+### 2. Draf Proposal Penawaran (Dokumen PDF)
+Jika sudah diminta penawaran resmi, buat dokumen sederhana 3-5 halaman dengan struktur ini:
 
-1.  **List Building:** Buka Google Maps, cari bisnis di kota target (misal: "Klinik Kecantikan di Medan"). Cari yang review-nya bagus tapi sosmed-nya mati/jelek.
-2.  **The "Audit" Approach:** Jangan langsung jualan. Kirim pesan DM/WA: *"Halo Admin [Nama Bisnis], saya lihat Klinik kakak di IG, tapi sayang link di bio-nya mati. Sayang banget kalau ada pelanggan mau booking. Boleh saya bantu betulkan gratis?"*
-3.  **Closing:** Setelah dibantu hal kecil, ajak Zoom/Meeting. Tawarkan paket lengkap.
-4.  **Target:** Hubungi 10 prospek per hari. Statistik: 10 kontak -> 3 respon -> 1 meeting -> 0.1 closing. Butuh 100 kontak untuk 1 klien di awal.
-
----
-
-### 5. Operation (Operasional Harian)
-Gunakan *tools* gratisan untuk manajemen agar rapi:
-* **Project Management:** Trello atau Notion (untuk memantau status konten klien).
-* **Komunikasi Tim:** Discord atau WhatsApp Group khusus.
-* **Penyimpanan:** Google Drive.
-* **SOP (Standar Operasional Prosedur):** Wajib buat *checklist* setiap pekerjaan. Contoh: *SOP Posting Instagram: Cek Caption -> Cek Hashtag -> Tag Lokasi -> Post.*
+* **Halaman 1 (Masalah):** Tunjukkan apa yang salah dengan marketing mereka sekarang (misal: "Follower banyak tapi yang beli sedikit", atau "Foto produk kurang menggugah selera").
+* **Halaman 2 (Solusi Kita):**
+    * *Strategy:* Riset kompetitor & Copywriting.
+    * *Production:* 12 Video Reels/TikTok per bulan + 5 Desain Grafis.
+    * *Distribution:* Optimasi Hashtag & Manajemen Posting.
+    * *Reporting:* Laporan performa bulanan.
+* **Halaman 3 (Investasi/Harga):**
+    * **Paket Basic:** Rp 3.500.000 (Hanya Desain Grafis).
+    * **Paket Growth (Rekomendasi):** Rp 5.000.000 (Video + Iklan).
+* **Halaman 4 (Studi Kasus/Portofolio):** Tunjukkan hasil kerja Anda sebelumnya (atau buat contoh dummy jika belum ada).
 
 ---
 
-### 6. Keuangan & Arus Kas (Finance & Cash Flow)
-Aturan emas bisnis jasa: **Cash Before Delivery.**
+### 3. Simulasi Excel Sederhana (Unit Economic & Cashflow)
+Ini adalah gambaran jika Anda mendapatkan **3 Klien pertama** dengan harga paket **Rp 5.000.000**.
 
-* **Termin Pembayaran:** 100% di depan, atau 50% DP dan 50% di pertengahan bulan berjalan. Jangan pernah mau dibayar di akhir bulan (Net 30) untuk klien kecil, karena akan mematikan arus kas Anda.
-* **Simulasi Arus Kas:**
-    * Tanggal 1: Terima Rp 5 Juta (Cash In).
-    * Tanggal 2: Bayar *tools* (Cash Out kecil).
-    * Tanggal 25: Bayar Freelancer (Cash Out besar).
-    * *Result:* Uang mengendap di rekening Anda selama 25 hari. Ini arus kas positif yang sangat sehat.
+| Kategori | Item | Nominal (Estimasi) | Keterangan |
+| :--- | :--- | :--- | :--- |
+| **PEMASUKAN** | | | |
+| Omzet | 3 Klien x Rp 5 Juta | **Rp 15.000.000** | Cash in di awal bulan |
+| | | | |
+| **PENGELUARAN (COGS)** | | | |
+| Jasa Freelancer | Video Editor (Borongan) | (Rp 4.500.000) | @1,5jt per klien |
+| Jasa Copywriter | Penulis Caption/Ide | (Rp 1.500.000) | @500rb per klien |
+| Tools | Canva Pro / Software | (Rp 150.000) | Langganan bulanan |
+| **Total Biaya Produksi** | | **(Rp 6.150.000)** | |
+| | | | |
+| **LABA KOTOR** | Pemasukan - Biaya Prod. | **Rp 8.850.000** | Margin 59% |
+| | | | |
+| **OPERASIONAL (OPEX)** | | | |
+| Internet/Kuota | Data/Wifi | (Rp 500.000) | |
+| Transport/Meeting | Kopi/Bensin | (Rp 500.000) | |
+| Dana Marketing | Iklan Instagram Agensi | (Rp 1.000.000) | Cari klien baru |
+| **Gaji Founder** | Gaji Pak Ahmad | **(Rp 4.000.000)** | Gaji Anda sendiri |
+| | | | |
+| **NET PROFIT** | Laba Bersih Perusahaan | **Rp 2.850.000** | Masuk KAS Perusahaan |
 
----
-
-### 7. Aturan Main Persentase Modal & Pendapatan
-Gunakan prinsip **30-30-20-20** dari Omzet (Pendapatan Kotor):
-
-* **30% Beban Operasional Langsung (COGS):** Bayar freelancer, beli aset digital.
-* **30% Gaji Tim Inti & Operasional Tetap:** Gaji Anda (Founder), listrik, internet, admin.
-* **20% Marketing & Growth:** Untuk iklan agensi sendiri atau traktat klien (entertainment cost).
-* **20% Profit Bersih/Cadangan Modal:** Ditabung untuk dana darurat perusahaan.
-
----
-
-### 8. Metode Bagi Hasil (Jika Ada Investor)
-Jika ada teman yang menyuntik modal (misal Rp 50 Juta untuk operasional awal), gunakan skema **Mudarabah** (Bagi Hasil Keuntungan) atau **Saham Dividen**.
-
-* **Simulasi:** Investor setor modal, dia dapat 30% dari *Net Profit* (Laba Bersih), Anda sebagai pengelola dapat 70%.
-* **Contoh:**
-    * Net Profit bulan ini: Rp 20.000.000.
-    * Investor dapat: Rp 6.000.000.
-    * Anda (Bisnis) dapat: Rp 14.000.000.
-* *Catatan:* Jangan bagi hasil dari Omzet! Itu akan membunuh bisnis saat margin menipis. Selalu bagi dari *Net Profit*.
+**Analisis Tabel:**
+1.  Dengan hanya **3 klien**, Anda sudah bisa menggaji diri sendiri Rp 4 Juta (setara/di atas UMR banyak kota).
+2.  Perusahaan masih punya sisa kas **Rp 2,8 Juta** per bulan untuk ditabung (dana darurat).
+3.  Pekerjaan berat (edit video) sudah didelegasikan ke freelancer, tugas Anda hanya *Quality Control* dan *Cari Klien*.
 
 ---
 
-### 9. Membangun Tim & Aturan Hiring
-Jangan merekrut karyawan tetap (Full-time) sebelum omzet stabil minimal 3x UMR setempat selama 3 bulan berturut-turut.
+### Langkah Taktis Selanjutnya:
+Karena Anda ada di Padangsidimpuan, strategi paling jitu adalah **"Jagoan Kandang"**:
 
-**Tahapan:**
-1.  **Fase 0-3 Klien:** *One Man Show*. Anda kerjakan semua (Sales, PM, Admin). Produksi konten bisa dilempar ke *freelancer* per *project*.
-2.  **Fase 4-8 Klien:** Rekrut 1 Orang *Project Manager/Admin* (Generalist). Tugasnya mengatur jadwal freelancer dan membalas chat klien.
-3.  **Fase 10+ Klien:** Rekrut in-house Content Creator (Spesialis).
+1.  List 50 bisnis paling ramai di Padangsidimpuan (Klinik, Cafe hits, Toko Baju).
+2.  Datangi atau DM mereka menggunakan skrip di atas.
+3.  Tawarkan harga "Promo Perkenalan" untuk klien pertama (misal diskon 20% bulan pertama) untuk membangun portofolio.
 
-**Aturan Hiring:**
-* Cari "Attitude" dan "Portofolio", abaikan Ijazah/IPK. Di dunia digital, *skill* > *degree*.
-* Berikan tes kecil berbayar sebelum merekrut. Suruh buat 1 konten, bayar mereka. Jika bagus dan tepat waktu, baru wawancara.
-
----
-
-### 10. Aturan Gaji Karyawan
-Gunakan struktur **Gaji Pokok + Bonus Kinerja**.
-
-* **Gaji Pokok:** Sesuai UMR atau sedikit di bawahnya (karena bisa WFH/Remote, ini benefit besar).
-* **Bonus KPI:**
-    * Untuk tim konten: Bonus jika konten FYP/Viral atau klien perpanjang kontrak (retensi).
-    * Untuk tim sales: Komisi 10-20% dari bulan pertama kontrak klien.
-
----
-
-### 11. Simulasi Profit (Target Omzet)
-Mari kita simulasikan target realistis dalam 6 bulan pertama:
-
-**Bulan ke-6 (Kondisi Stabil):**
-* **Total Klien Aktif:** 10 Klien.
-* **Harga Rata-rata:** Rp 5.000.000.
-* **Omzet (Revenue):** **Rp 50.000.000 / bulan.**
-
-**Pengeluaran:**
-* Jasa Freelancer/Produksi (30%): Rp 15.000.000
-* Gaji 1 Admin/PM: Rp 4.000.000
-* Gaji Anda (Founder): Rp 8.000.000
-* Software/Internet: Rp 2.000.000
-* Marketing/Iklan sendiri: Rp 3.000.000
-* **Total Biaya:** Rp 32.000.000
-
-**Profit Bersih Perusahaan:**
-* Rp 50.000.000 - Rp 32.000.000 = **Rp 18.000.000 / bulan** (Dana ini bisa diputar untuk ekspansi atau dividen).
-
-### Langkah Selanjutnya (Next Step)
-Model ini sangat fleksibel dan bisa dimulai dengan modal minim (hanya laptop dan koneksi internet).
-
+Apakah Anda ingin saya buatkan **Checklist Harian** (Day-to-day activity) apa saja yang harus dilakukan Pak Ahmad sebagai *Founder* di 30 hari pertama?
