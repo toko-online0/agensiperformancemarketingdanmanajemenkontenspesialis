@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafah Digital Creative - Solusi Bisnis Digital</title>
+    <meta name="description" content="Agensi Digital Marketing Terpercaya. Solusi konten, iklan, dan pertumbuhan bisnis Anda.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            primary: '#3b82f6',
+                            accent: '#f59e0b', // Warna Emas/Orange untuk 'Rafah'
+                            light: '#f8fafc'
+                        }
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'spin-slow': 'spin 12s linear infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles for Glassmorphism & Effects */
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            overflow-x: hidden;
+        }
+
+        .glass-nav {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-10px);
+            border-color: rgba(245, 158, 11, 0.5);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to right, #3b82f6, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Abstract Background Shapes */
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.4;
+            animation: float 10s infinite alternate;
+        }
+        .blob-1 { top: -10%; left: -10%; width: 500px; height: 500px; background: #3b82f6; border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
+        .blob-2 { bottom: -10%; right: -10%; width: 400px; height: 400px; background: #f59e0b; border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; animation-delay: -5s; }
+
+        /* Mobile Menu Transition */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out;
+            transform: translateX(100%);
+        }
+        #mobile-menu.open {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body class="antialiased relative">
+
+    <!-- Background Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-brand-accent flex items-center justify-center text-white font-bold text-xl mr-3 shadow-lg shadow-blue-500/50">
+                        R
+                    </div>
+                    <span class="font-bold text-2xl tracking-tight">Rafah<span class="text-brand-accent">.</span>Digital</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-gray-300 hover:text-brand-accent transition-colors text-sm uppercase tracking-wider font-semibold">Beranda</a>
+                    <a href="#services" class="text-gray-300 hover:text-brand-accent transition-colors text-sm uppercase tracking-wider font-semibold">Layanan</a>
+                    <a href="#portfolio" class="text-gray-300 hover:text-brand-accent transition-colors text-sm uppercase tracking-wider font-semibold">Portofolio</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-brand-accent transition-colors text-sm uppercase tracking-wider font-semibold">Testimoni</a>
+                    <a href="https://wa.me/6282273902728?text=Halo%20Rafah%20Digital,%20saya%20tertarik%20konsultasi" target="_blank" class="bg-brand-accent hover:bg-yellow-500 text-brand-dark px-5 py-2.5 rounded-full font-bold transition-all shadow-lg shadow-yellow-500/20 transform hover:scale-105">
+                        <i class="fab fa-whatsapp mr-1"></i> Konsultasi
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 z-40 bg-brand-dark/95 backdrop-blur-xl flex flex-col justify-center items-center space-y-8 md:hidden">
+        <button id="close-menu-btn" class="absolute top-6 right-6 text-gray-400 hover:text-white">
+            <i class="fas fa-times text-3xl"></i>
+        </button>
+        <a href="#home" class="text-2xl font-bold text-white hover:text-brand-accent mobile-link">Beranda</a>
+        <a href="#services" class="text-2xl font-bold text-white hover:text-brand-accent mobile-link">Layanan</a>
+        <a href="#portfolio" class="text-2xl font-bold text-white hover:text-brand-accent mobile-link">Portofolio</a>
+        <a href="#testimonials" class="text-2xl font-bold text-white hover:text-brand-accent mobile-link">Testimoni</a>
+        <a href="https://wa.me/6282273902728?text=Halo%20Rafah%20Digital,%20saya%20tertarik%20konsultasi" class="px-8 py-3 bg-brand-accent text-brand-dark font-bold rounded-full text-xl shadow-xl mobile-link">Hubungi Kami</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center lg:text-left">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <!-- Text Content -->
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <div class="inline-block px-4 py-1.5 rounded-full border border-brand-accent/30 bg-brand-accent/10 text-brand-accent text-sm font-semibold mb-6 animate-pulse-slow">
+                        ✨ Solusi Digital Marketing Terbaik
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight mb-6">
+                        Tumbuhkan Bisnis <br>
+                        <span class="text-gradient">Lebih Cepat.</span>
+                    </h1>
+                    <p class="text-lg text-gray-400 mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Kami membantu bisnis lokal bertransformasi menjadi brand digital yang kuat. Strategi konten, iklan tertarget, dan hasil nyata.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <!-- LINK WHATSAPP DIPERBARUI DISINI -->
+                        <a href="https://wa.me/6282273902728?text=Halo%20Rafah%20Digital,%20saya%20mau%20tanya%20paket%20promosi" target="_blank" class="px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white rounded-xl font-bold text-lg shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1 flex items-center justify-center">
+                            Mulai Sekarang <i class="fab fa-whatsapp ml-2"></i>
+                        </a>
+                        <a href="#services" class="px-8 py-4 border border-gray-600 hover:border-brand-accent text-gray-300 hover:text-white rounded-xl font-semibold text-lg transition-all flex items-center justify-center bg-white/5 backdrop-blur-sm">
+                            <i class="fas fa-play-circle mr-2 text-brand-accent"></i> Lihat Layanan
+                        </a>
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="mt-12 flex items-center justify-center lg:justify-start gap-8 text-left border-t border-gray-800 pt-8">
+                        <div>
+                            <p class="text-3xl font-bold text-white">100%</p>
+                            <p class="text-sm text-gray-500">Dedikasi</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-white">24/7</p>
+                            <p class="text-sm text-gray-500">Support</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-white">ROI</p>
+                            <p class="text-sm text-gray-500">Fokus Utama</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="mt-16 lg:mt-0 relative" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="relative w-full aspect-square max-w-md mx-auto animate-float">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 to-brand-accent rounded-3xl opacity-20 blur-2xl"></div>
+                        <div class="relative h-full w-full bg-gray-900 border border-gray-700 rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center group">
+                             <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Analytics Dashboard" class="object-cover w-full h-full opacity-80 group-hover:scale-110 transition-transform duration-700">
+                             <!-- Floating Card 1 -->
+                             <div class="absolute bottom-8 left-8 bg-gray-800/90 backdrop-blur border border-gray-600 p-4 rounded-xl shadow-xl animate-float" style="animation-delay: 1s;">
+                                 <div class="flex items-center gap-3">
+                                     <div class="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center text-green-500">
+                                         <i class="fas fa-chart-line"></i>
+                                     </div>
+                                     <div>
+                                         <p class="text-xs text-gray-400">Penjualan</p>
+                                         <p class="text-lg font-bold text-white">+150%</p>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-black/20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-brand-accent font-bold tracking-wide uppercase text-sm mb-2">Layanan Kami</h2>
+                <h3 class="text-3xl md:text-5xl font-bold text-white">Strategi Digital <span class="text-gradient">Terintegrasi</span></h3>
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Kami tidak hanya membuat postingan, kami membangun aset digital yang menghasilkan uang untuk bisnis Anda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="glass-card p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-400 text-3xl mb-6">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Manajemen Konten</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Produksi konten Reels/TikTok berkualitas tinggi, copywriting yang menghipnotis, dan desain feed yang estetik.
+                    </p>
+                </div>
+                <!-- Service 2 -->
+                <div class="glass-card p-8 rounded-2xl border-brand-accent/30 relative" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute -top-4 right-8 bg-brand-accent text-brand-dark text-xs font-bold px-3 py-1 rounded-full">POPULAR</div>
+                    <div class="w-16 h-16 bg-brand-accent/10 rounded-2xl flex items-center justify-center text-brand-accent text-3xl mb-6">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Performance Ads</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Iklan Meta (FB/IG) & Google Ads khusus untuk mendatangkan Leads WhatsApp tertarget.
+                    </p>
+                </div>
+                <!-- Service 3 -->
+                <div class="glass-card p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-purple-500/10 rounded-2xl flex items-center justify-center text-purple-400 text-3xl mb-6">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">SEO Lokal & Profil</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Dominasi pencarian lokal Google Maps agar bisnis Anda mudah ditemukan pelanggan sekitar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: PORTFOLIO -->
+    <section id="portfolio" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="lg:flex justify-between items-end mb-12" data-aos="fade-up">
+                <div>
+                    <h2 class="text-brand-accent font-bold tracking-wide uppercase text-sm mb-2">Hasil Karya</h2>
+                    <h3 class="text-3xl md:text-5xl font-bold text-white">Portofolio <span class="text-gradient">Terbaru</span></h3>
+                </div>
+                <div class="hidden lg:block">
+                    <a href="#" class="text-gray-400 hover:text-brand-accent transition-colors flex items-center">Lihat Semua <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portfolio Item 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cafe Marketing" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent opacity-80"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="text-xs font-bold text-brand-accent bg-brand-accent/20 px-2 py-1 rounded mb-2 inline-block">F&B</span>
+                            <h4 class="text-xl font-bold text-white">Kopi Senja Padangsidimpuan</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm">Meningkatkan kunjungan store sebesar 40% melalui konten TikTok viral.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Clinic Marketing" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent opacity-80"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="text-xs font-bold text-brand-accent bg-brand-accent/20 px-2 py-1 rounded mb-2 inline-block">Klinik Kecantikan</span>
+                            <h4 class="text-xl font-bold text-white">Glow Aesthetic</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm">Mendapatkan 150+ Leads WhatsApp dalam 30 hari menggunakan Meta Ads.</p>
+                    </div>
+                </div>
+
+                 <!-- Portfolio Item 3 -->
+                 <div class="glass-card rounded-2xl overflow-hidden group cursor-pointer" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fashion Store" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark to-transparent opacity-80"></div>
+                        <div class="absolute bottom-4 left-4">
+                            <span class="text-xs font-bold text-brand-accent bg-brand-accent/20 px-2 py-1 rounded mb-2 inline-block">Fashion</span>
+                            <h4 class="text-xl font-bold text-white">Butik Muslimah</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-400 text-sm">Rebranding total feed Instagram dan optimasi Google Business Profile.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: TESTIMONIALS -->
+    <section id="testimonials" class="py-20 bg-black/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-brand-accent font-bold tracking-wide uppercase text-sm mb-2">Testimoni</h2>
+                <h3 class="text-3xl md:text-5xl font-bold text-white">Kata Mereka Tentang <span class="text-gradient">Rafah</span></h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimoni 1 -->
+                <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left text-4xl text-brand-accent/20 absolute top-6 left-6"></i>
+                    <p class="text-gray-300 italic mb-6 relative z-10">"Awalnya ragu pakai jasa agensi, tapi Rafah Digital beneran ngerti pasar lokal. Omzet naik bulan pertama!"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-gray-600 rounded-full mr-3 overflow-hidden">
+                             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="text-white font-bold text-sm">Budi Santoso</h5>
+                            <p class="text-gray-500 text-xs">Owner Cafe Kopi</p>
+                        </div>
+                        <div class="ml-auto text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimoni 2 -->
+                <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-quote-left text-4xl text-brand-accent/20 absolute top-6 left-6"></i>
+                    <p class="text-gray-300 italic mb-6 relative z-10">"Adminnya ramah, kontennya kreatif banget. Feed IG klinik saya jadi jauh lebih rapi dan profesional."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-gray-600 rounded-full mr-3 overflow-hidden">
+                             <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="text-white font-bold text-sm">Dr. Sari</h5>
+                            <p class="text-gray-500 text-xs">Glow Aesthetic</p>
+                        </div>
+                        <div class="ml-auto text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimoni 3 -->
+                <div class="glass-card p-8 rounded-2xl relative" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-quote-left text-4xl text-brand-accent/20 absolute top-6 left-6"></i>
+                    <p class="text-gray-300 italic mb-6 relative z-10">"Investasi terbaik tahun ini. Iklannya pas sasaran, yang WA beneran orang mau beli, bukan tanya doang."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-gray-600 rounded-full mr-3 overflow-hidden">
+                             <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Client" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="text-white font-bold text-sm">Rahmat H.</h5>
+                            <p class="text-gray-500 text-xs">Toko Bangunan Jaya</p>
+                        </div>
+                        <div class="ml-auto text-yellow-400 text-xs">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us / Process -->
+    <section id="process" class="py-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="lg:grid lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Kenapa Memilih <br><span class="text-brand-accent">Rafah Digital?</span></h2>
+                    <p class="text-gray-400 mb-8 leading-relaxed">
+                        Nama <strong>"Rafah"</strong> melambangkan kemakmuran dan ketinggian. Misi kami adalah mengangkat bisnis Anda ke level tersebut.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mt-1">1</div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-white">Analisa Mendalam</h4>
+                                <p class="text-gray-400 text-sm">Kami tidak menebak. Kami meriset kompetitor dan data pasar Anda.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold mt-1">2</div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-white">Eksekusi Kreatif</h4>
+                                <p class="text-gray-400 text-sm">Visual menarik perhatian di 3 detik pertama.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 lg:mt-0 relative" data-aos="fade-left">
+                     <!-- Interactive Element / Mockup -->
+                     <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border border-gray-700 shadow-2xl relative overflow-hidden group">
+                        <!-- Simulate Chat Interface -->
+                        <div class="space-y-4">
+                            <div class="flex items-end">
+                                <div class="w-8 h-8 rounded-full bg-gray-600 flex-shrink-0"></div>
+                                <div class="ml-2 bg-gray-700 p-3 rounded-2xl rounded-bl-none text-gray-200 text-sm max-w-xs">
+                                    Halo Rafah, omzet saya stuck nih. Bisa bantu?
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-end">
+                                <div class="mr-2 bg-blue-600 p-3 rounded-2xl rounded-br-none text-white text-sm max-w-xs">
+                                    Tentu Pak! Kami punya strategi "30 Hari Datang Pelanggan".
+                                </div>
+                                <div class="w-8 h-8 rounded-full bg-brand-accent flex-shrink-0 flex items-center justify-center text-brand-dark font-bold text-xs">R</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Glow Effect -->
+                        <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-brand-accent blur-3xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-card rounded-3xl p-8 md:p-12 text-center relative overflow-hidden" data-aos="zoom-in">
+                <!-- Background Decoration -->
+                <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-500 via-brand-accent to-blue-500"></div>
+
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Siap Meningkatkan Bisnis?</h2>
+                <p class="text-gray-300 mb-8 max-w-lg mx-auto">
+                    Konsultasikan kebutuhan bisnis Anda hari ini. Kami berikan audit sosial media GRATIS.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://wa.me/6282273902728?text=Halo%20Rafah%20Digital,%20saya%20tertarik%20konsultasi" target="_blank" class="w-full sm:w-auto px-8 py-4 bg-green-500 hover:bg-green-600 text-white rounded-xl font-bold text-lg shadow-lg shadow-green-500/30 transition-all flex items-center justify-center transform hover:scale-105">
+                        <i class="fab fa-whatsapp text-2xl mr-2"></i> Chat WhatsApp
+                    </a>
+                    <a href="mailto:halo@rafahdigital.com" class="w-full sm:w-auto px-8 py-4 bg-gray-800 hover:bg-gray-700 text-white border border-gray-600 rounded-xl font-bold text-lg transition-all flex items-center justify-center">
+                        <i class="fas fa-envelope mr-2"></i> Kirim Email
+                    </a>
+                </div>
+                
+                <p class="mt-6 text-sm text-gray-500">
+                    *Respon cepat dalam jam kerja (09.00 - 17.00 WIB)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black/40 border-t border-gray-800 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 rounded bg-gradient-to-br from-blue-500 to-brand-accent flex items-center justify-center text-white font-bold mr-2">
+                            R
+                        </div>
+                        <span class="font-bold text-xl text-white">Rafah<span class="text-brand-accent">.</span>Digital</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mt-2">Padangsidimpuan, Indonesia.</p>
+                </div>
+                
+                <div class="flex space-x-6 text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fab fa-instagram text-xl"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fab fa-facebook text-xl"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fab fa-linkedin text-xl"></i></a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-600 text-sm">
+                &copy; 2024 Rafah Digital Creative. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, offset: 50, duration: 800, easing: 'ease-out-cubic' });
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const closeBtn = document.getElementById('close-menu-btn');
+        const links = document.querySelectorAll('.mobile-link');
+        const nav = document.getElementById('navbar');
+
+        // Toggle logic
+        function openMenu() {
+            menu.classList.remove('hidden');
+            setTimeout(() => { menu.classList.add('open'); }, 10);
+        }
+        function closeMenu() {
+            menu.classList.remove('open');
+            setTimeout(() => { menu.classList.add('hidden'); }, 300);
+        }
+
+        btn.addEventListener('click', openMenu);
+        closeBtn.addEventListener('click', closeMenu);
+        links.forEach(link => link.addEventListener('click', closeMenu));
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+                nav.style.background = 'rgba(15, 23, 42, 0.95)';
+            } else {
+                nav.classList.remove('shadow-lg');
+                nav.style.background = 'rgba(15, 23, 42, 0.8)';
+            }
+        });
+    </script>
+</body>
+</html>
