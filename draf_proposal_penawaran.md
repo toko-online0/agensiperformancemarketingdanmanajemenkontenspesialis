@@ -138,4 +138,3 @@ Mari kita simulasikan target realistis dalam 6 bulan pertama:
 ### Langkah Selanjutnya (Next Step)
 Model ini sangat fleksibel dan bisa dimulai dengan modal minim (hanya laptop dan koneksi internet).
 
-**Apakah Anda ingin saya buatkan draf "Proposal Penawaran" untuk dikirimkan ke calon klien pertama, atau saya buatkan tabel simulasi Excel sederhana untuk menghitung biaya operasionalnya?**
