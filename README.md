@@ -1,6 +1,4 @@
-Ini adalah panduan komprehensif untuk sebuah model bisnis digital yang sangat relevan di Indonesia saat ini, memiliki risiko modal yang terukur, namun potensi skalabilitas yang tinggi.
-
-Model bisnis yang saya rekomendasikan adalah: **Agensi "Performance Marketing" & Manajemen Konten Spesialis (Niche Agency).**
+**Agensi "Performance Marketing" & Manajemen Konten Spesialis (Niche Agency).**
 
 Berbeda dengan agensi umum (Palugada), agensi ini fokus pada satu *niche* industri (misalnya: F&B, Klinik Kesehatan/Kecantikan, atau Fashion Muslim) dengan fokus pada hasil nyata (leads/penjualan), bukan sekadar *likes*.
 
@@ -139,5 +137,3 @@ Mari kita simulasikan target realistis dalam 6 bulan pertama:
 
 ### Langkah Selanjutnya (Next Step)
 Model ini sangat fleksibel dan bisa dimulai dengan modal minim (hanya laptop dan koneksi internet).
-
-**Apakah Anda ingin saya buatkan draf "Proposal Penawaran" untuk dikirimkan ke calon klien pertama, atau saya buatkan tabel simulasi Excel sederhana untuk menghitung biaya operasionalnya?**
